@@ -1,0 +1,87 @@
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Build outputs
+*.app
+*.dmg
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Sparkle tools (downloaded for signing)
+sparkle_tools/
+sparkle.tar.xz
+sparkle_private_key
+*.p12
+*.cer
+*.certSigningRequest
+
+docs
+
+# Node.js / Bun
+node_modules/
+bun.lockb
+
+# .NET / MSBuild — build, publish, test outputs (do not commit)
+**/bin/
+**/obj/
+**/TestResults/
+artifacts/
+publish/win-x64-installer
+out/
+dist/
+
+# Generated next to PortKiller.iss before ISCC (see build-installer.ps1)
+platforms/windows/installer/setup.ico
+platforms/windows/installer/wizard-large.png
+platforms/windows/installer/wizard-small.png
+
+# NuGet / tooling
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# IDE / user-specific
+*.user
+*.suo
+*.userprefs
+.vs/
+*.DotSettings.user
+*.rsuser
+
+# Rust
+**/target/

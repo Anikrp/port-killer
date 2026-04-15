@@ -1,0 +1,83 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portStroke" x1="96" y1="96" x2="320" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2AF598"/>
+      <stop offset="1" stop-color="#08AEEA"/>
+    </linearGradient>
+    <linearGradient id="boltFill" x1="250" y1="110" x2="430" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8FF78"/>
+      <stop offset="1" stop-color="#00C853"/>
+    </linearGradient>
+    <linearGradient id="pinFill" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE082"/>
+      <stop offset="1" stop-color="#FFB300"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0.9
+                0 0 1 0 0.4
+                0 0 0 0.22 0"/>
+      <feBlend in="SourceGraphic" mode="normal"/>
+    </filter>
+  </defs>
+
+  <!-- Slightly scale artwork so tray/taskbar glyphs read closer to other apps (was ~62% of canvas). -->
+  <g transform="translate(256 256) scale(1.12) translate(-256 -256)">
+  <g filter="url(#softGlow)">
+    <!-- Port outline -->
+    <path d="M130 120
+             C130 102 144 88 162 88
+             H286
+             C304 88 318 102 318 120
+             V232
+             C318 250 304 264 286 264
+             H250
+             V290
+             C250 305 238 317 223 317
+             H204
+             V338
+             C204 353 192 365 177 365
+             H162
+             C144 365 130 351 130 333
+             V120Z"
+          fill="#0B1220"/>
+    <path d="M130 120
+             C130 102 144 88 162 88
+             H286
+             C304 88 318 102 318 120
+             V232
+             C318 250 304 264 286 264
+             H250
+             V290
+             C250 305 238 317 223 317
+             H204
+             V338
+             C204 353 192 365 177 365
+             H162
+             C144 365 130 351 130 333
+             V120Z"
+          stroke="url(#portStroke)" stroke-width="18" stroke-linejoin="round"/>
+
+    <!-- Inner port cavity -->
+    <rect x="165" y="132" width="122" height="108" rx="14" fill="#071019"/>
+
+    <!-- Pins -->
+    <rect x="182" y="150" width="16" height="60" rx="4" fill="url(#pinFill)"/>
+    <rect x="208" y="150" width="16" height="60" rx="4" fill="url(#pinFill)"/>
+    <rect x="234" y="150" width="16" height="60" rx="4" fill="url(#pinFill)"/>
+    <rect x="260" y="150" width="16" height="46" rx="4" fill="url(#pinFill)"/>
+
+    <!-- Lightning bolt -->
+    <path d="M336 96
+             L244 228
+             H302
+             L222 416
+             L382 258
+             H322
+             L336 96Z"
+          fill="url(#boltFill)"/>
+  </g>
+  </g>
+</svg>
