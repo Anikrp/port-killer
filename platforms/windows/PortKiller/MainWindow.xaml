@@ -537,7 +537,7 @@
                                                 <TextBlock Text="{x:Static helpers:AppVersionInfo.DisplayVersion}" Foreground="#E0E0E0" FontSize="13" FontWeight="SemiBold" VerticalAlignment="Center"/>
                                             </StackPanel>
                                             <TextBlock Margin="0,8,0,0" Foreground="#909090" FontSize="12" TextWrapping="Wrap">
-                                                Developer &amp; publisher: arpcode.com
+                                                Developer &amp; publisher: arpcodes.com
                                             </TextBlock>
                                         </StackPanel>
                                     </Border>

@@ -9,7 +9,7 @@
 #endif
 
 #define MyAppName "PortKiller"
-#define MyAppPublisher "arpcode.com"
+#define MyAppPublisher "arpcodes.com"
 #define MyAppExeName "PortKiller.exe"
 #define MyAppSource "..\..\..\publish\win-x64-installer"
 
@@ -19,10 +19,10 @@ AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-AppPublisherURL=https://arpcode.com/
-AppSupportURL=https://arpcode.com/
-AppUpdatesURL=https://arpcode.com/
-AppCopyright=Copyright (C) arpcode.com
+AppPublisherURL=https://arpcodes.com/
+AppSupportURL=https://arpcodes.com/
+AppUpdatesURL=https://arpcodes.com/
+AppCopyright=Copyright (C) arpcodes.com
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
@@ -46,7 +46,7 @@ VersionInfoVersion={#MyAppVersion}.0
 VersionInfoCompany={#MyAppPublisher}
 VersionInfoProductName={#MyAppName}
 VersionInfoDescription={#MyAppName} Installer
-VersionInfoCopyright=Copyright (C) arpcode.com
+VersionInfoCopyright=Copyright (C) arpcodes.com
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"

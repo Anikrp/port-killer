@@ -13,8 +13,8 @@
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <FileVersion>4.1.0.0</FileVersion>
     <InformationalVersion>4.1</InformationalVersion>
-    <Company>arpcode.com</Company>
-    <Authors>arpcode.com</Authors>
+    <Company>arpcodes.com</Company>
+    <Authors>arpcodes.com</Authors>
     <Product>PortKiller</Product>
     <Description>A native Windows app for finding and killing processes on open ports</Description>
   </PropertyGroup>

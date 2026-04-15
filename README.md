@@ -13,7 +13,7 @@
 
 <p align="center">
   <strong>Native WPF app</strong> to inspect listening TCP ports, kill processes, and manage Cloudflare Tunnels — with a system tray workflow, configurable refresh, and a modern UI with vector artwork in the sidebar.<br><br>
-  Published by <a href="https://arpcode.com">arpcode.com</a>.
+  Published by <a href="https://arpcodes.com">arpcodes.com</a>.
 </p>
 
 ---
@@ -170,6 +170,6 @@ See **[CONTRIBUTING.md](CONTRIBUTING.md)** for development setup.
 
 ## License
 
-**MIT** — see **[LICENSE](LICENSE)**. Copyright (c) 2026 **arpcode.com**.
+**MIT** — see **[LICENSE](LICENSE)**. Copyright (c) 2026 **arpcodes.com**.
 
 This Windows line builds on ideas from the broader [port-killer](https://github.com/productdevbook/port-killer) ecosystem.

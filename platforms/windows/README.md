@@ -62,4 +62,4 @@ platforms/windows/
 
 ## License
 
-[MIT](../../LICENSE) — Copyright (c) 2026 arpcode.com.
+[MIT](../../LICENSE) — Copyright (c) 2026 arpcodes.com.

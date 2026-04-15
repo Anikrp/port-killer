@@ -40,7 +40,7 @@ public partial class MainWindow : Window
     {
         _trayIcon = new Hardcodet.Wpf.TaskbarNotification.TaskbarIcon
         {
-            ToolTipText = $"PortKiller {AppVersionInfo.DisplayVersion} — arpcode.com",
+            ToolTipText = $"PortKiller {AppVersionInfo.DisplayVersion} — arpcodes.com",
             Visibility = Visibility.Visible
         };
 
