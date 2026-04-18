@@ -18,6 +18,19 @@
 
 ---
 
+## Why use PortKiller?
+
+| Advantage | What it means for you |
+|-----------|------------------------|
+| **Faster than manual debugging** | Skip juggling **Resource Monitor**, **Task Manager**, and `netstat` / `taskkill` in a terminal — see **listening ports and owning processes** in one native window. |
+| **Safer process-ending** | **Kill** with confirmation; the app tries a **graceful stop** first and only **forces** when needed, so you are less likely to nuke the wrong thing than with a blunt `taskkill /F`. |
+| **Built for daily dev work** | **Search**, **categories**, **favorites**, and **watched ports** with **notifications** help when you run many stacks (web, DBs, tunnels) and need to spot conflicts or frees quickly. |
+| **Stays out of your way** | **System tray** workflow, **optional close-to-tray**, and **configurable auto-refresh** mean you can keep it running and glance or act without hunting through menus. |
+| **Tunnels in context** | **Cloudflare Tunnel** visibility next to port/process info — useful when local services are exposed or proxied, not only when something is “just” bound to a port. |
+| **Easy to install** | The **self-contained installer** ships everything needed on target PCs (no separate .NET install), with a proper **Start Menu** entry and **clean uninstall**. |
+
+---
+
 ## Highlights (this fork)
 
 | Area | What you get |
@@ -31,6 +44,8 @@
 ---
 
 ## Features
+
+Concrete capabilities behind the advantages above:
 
 ### Ports & processes
 
